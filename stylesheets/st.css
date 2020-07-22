@@ -82,6 +82,7 @@ margin: 0px 10px 0px 10px;
 }
 
 .site-footer {
+  align:center;
   padding-top: 2rem;
   margin-top: 2rem;
   border-top: solid 1px #eff0f1; }
