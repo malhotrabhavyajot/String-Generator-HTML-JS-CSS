@@ -3,7 +3,7 @@
 
 body {
   padding: 0;
-  margin: 0;
+  margin:100px 400px 100px 400px;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -176,9 +176,35 @@ a {
 
 
 
-.main {
-  color: #fff;
-  text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
-    
+#input1{
+  border: 2px solid black;
+  margin: 0px 10px 0px 10px;
+  background-color: #ffffff;
+}
+#p1{
+margin: 10px 10px 0px 10px;
+}
+#input2{
+  border: 2px solid black;
+  margin: 0px 10px 0px 10px;
+  background-color: #ffffff;
+}
+#p2{
+margin: 10px 10px 0px 10px;
+}
+#add{
+  border: 2px solid black;
+  border-radius: 25px;
+  margin: 0px 0px 0px 10px;
+  background-color: #ffffff;
+}
+#output1{
+  border: 2px solid black;
+  margin: 15px 10px 0px 10px;
+  background-color: #ffffff;
+}
+#p3{
+margin: 0px 10px 0px 10px;
+}
+
+
