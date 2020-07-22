@@ -1,5 +1,6 @@
-body{
-background-color:lightblue;
+body {
+    margin: 0;
+    background: linear-gradient(45deg, black, transparent);
 }
 
 a {
