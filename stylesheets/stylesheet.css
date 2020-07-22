@@ -243,3 +243,37 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+#he{
+font-size:15px;
+margin:30px 10px 10px 10px;
+}
+#input1{
+  border: 2px solid black;
+  margin: 0px 10px 0px 10px;
+  background-color: #ffffff;
+}
+#p1{
+margin: 10px 10px 0px 10px;
+}
+#input2{
+  border: 2px solid black;
+  margin: 0px 10px 0px 10px;
+  background-color: #ffffff;
+}
+#p2{
+margin: 10px 10px 0px 10px;
+}
+#add{
+  border: 2px solid black;
+  border-radius: 25px;
+  margin: 0px 0px 0px 10px;
+  background-color: #ffffff;
+}
+#output1{
+  border: 2px solid black;
+  margin: 15px 10px 0px 10px;
+  background-color: #ffffff;
+}
+#p3{
+margin: 0px 10px 0px 10px;
+}
