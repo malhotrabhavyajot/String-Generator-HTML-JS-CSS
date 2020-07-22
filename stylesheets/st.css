@@ -31,7 +31,7 @@ body {
 text-align:center;
 background-color:#606c71; ;
 margin:100px 400px 100px 400px;
-font-family:Comic Sans MS;
+font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 border: 10px solid green;
 padding: 45px;
 }
@@ -69,3 +69,16 @@ margin: 10px 10px 0px 10px;
 #p3{
 margin: 0px 10px 0px 10px;
 }
+
+.site-footer {
+  padding-top: 2rem;
+  margin-top: 2rem;
+  border-top: solid 1px #eff0f1; }
+
+.site-footer-owner {
+  display: block;
+  font-weight: bold; }
+
+.site-footer-credits {
+  color: #819198; }
+           
