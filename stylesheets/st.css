@@ -1,3 +1,8 @@
+a {
+  color: #1e6bb8;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
@@ -24,7 +29,7 @@
 
 body {
 text-align:center;
-background-color: lightblue;
+background-color:#606c71; ;
 margin:100px 400px 100px 400px;
 font-family:Comic Sans MS;
 border: 10px solid green;
