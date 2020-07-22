@@ -34,8 +34,10 @@ a {
 }
 
 body {
-text-align:center;
-background-color: lightblue;
+  color: #fff;
+  text-align: center;
+  background-color: #159957;
+  background-image: linear-gradient(120deg, #155799, #159957);
 margin:100px 400px 100px 400px;
 font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 padding: 45px;
