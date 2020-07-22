@@ -35,3 +35,83 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html>
+<head>
+<title>TEMPZSOFT</title>
+                       <!-- CSS Styling -->
+<style>            
+body {
+text-align:center;
+background-color: lightblue;
+margin:100px 400px 100px 400px;
+font-family:Comic Sans MS;
+border: 10px solid green;
+padding: 45px;
+}
+#he{
+font-size:15px;
+margin:30px 10px 10px 10px;
+}
+#input1{
+  border: 2px solid black;
+  margin: 0px 10px 0px 10px;
+  background-color: #ffffff;
+}
+#p1{
+margin: 10px 10px 0px 10px;
+}
+#input2{
+  border: 2px solid black;
+  margin: 0px 10px 0px 10px;
+  background-color: #ffffff;
+}
+#p2{
+margin: 10px 10px 0px 10px;
+}
+#add{
+  border: 2px solid black;
+  border-radius: 25px;
+  margin: 0px 0px 0px 10px;
+  background-color: #ffffff;
+}
+#output1{
+  border: 2px solid black;
+  margin: 15px 10px 0px 10px;
+  background-color: #ffffff;
+}
+#p3{
+margin: 0px 10px 0px 10px;
+}
+</style>
+                      <!-- Main Body -->
+   <body>
+      <h1 id="h">Catchy String Generator</h1>
+      <p id="p1">Enter String 1: <input type="text" id="input1" size="10" /></p>
+      <br>
+      <p id="p1">Enter Length: <input type="number" id="inputnum1" size="10" /></p>
+      <br>
+      <p id="p2">Enter String 2: <input type="text" id="input2" size="10" /></p>
+      <br>
+      <p id="p1">Enter Length: <input type="number" id="inputnum2" size="10" /></p>
+      <br>
+      <button id="add" onclick="myFunction('add')">CLICK HERE TO ADD THE STRINGS</button>
+      <p id="p3">Your Answer:<input id="output1" size="10" /></p>
+      <h2 id="he">For TEMPZSOFT by Bhavyajot Malhotra</h2>
+                        <!-- JavaScript -->
+      <script>                 
+         function myFunction(id) {
+         var str1 = document.getElementById("input1").value;
+         var str2 = document.getElementById("input2").value;
+         var num1 = document.getElementById("inputnum1").value;
+         var num2 = document.getElementById("inputnum2").value; 
+         str1 = str1.slice(0,num1);
+         str2 = str2.slice(0,num2);
+         var result = str1.concat(str2);
+         result = result.slice(0,5);
+         document.getElementById("output1").value = result;
+         }
+      </script>
+
+   </body>
+</html>
