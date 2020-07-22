@@ -2,7 +2,9 @@ a {
   color: #1e6bb8;
   text-decoration: none; }
   a:hover {
-    text-decoration: underline; }
+    text-decoration: underline; 
+}
+
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
@@ -14,27 +16,31 @@ a {
   border-radius: 0.3rem;
   transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
   .btn + .btn {
-    margin-left: 1rem; }
+    margin-left: 1rem; 
+}
 
 .btn:hover {
   color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
   background-color: rgba(255, 255, 255, 0.2);
-  border-color: rgba(255, 255, 255, 0.3); }
+  border-color: rgba(255, 255, 255, 0.3); 
+}
+
 .page-header {
   color: #fff;
   text-align: center;
   background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  background-image: linear-gradient(120deg, #155799, #159957);
+}
 
 body {
 text-align:center;
-  background-color: #159957;
+background-color: #159957;
 margin:100px 400px 100px 400px;
 font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-
 padding: 45px;
 }
+
 #he{
 font-size:15px;
 margin:30px 10px 10px 10px;
