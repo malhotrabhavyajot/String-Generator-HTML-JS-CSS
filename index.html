@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
      <!-- <link rel="stylesheet" type="text/css" href="stylesheets/st.css" media="screen"> -->
                   <!-- JavaScript -->
-    <script type="text/javascript" src="gen.js"></script> 
+     <!--<script type="text/javascript" src="gen.js"></script> --> 
     
   </head>
   <body>
@@ -35,7 +35,19 @@
       <button id="add" onclick="myFunction('add')">CLICK HERE TO ADD THE STRINGS</button>
       <p id="p3">Your Answer:<input id="output1" size="10" /></p>
       </section>
-          
+    
+    <script>
+      function myFunction(id) {
+        var str1 = document.getElementById("input1").value;
+        var str2 = document.getElementById("input2").value;
+        var num1 = document.getElementById("inputnum1").value;
+        var num2 = document.getElementById("inputnum2").value; 
+        str1 = str1.slice(0,num1);
+        str2 = str2.slice(0,num2);
+        var result = str1.concat(str2);
+        result = result.slice(0,5);
+        document.getElementById("output1").value = result;}
+    </script>
    
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/malhotrabhavyajot/String-Generator-HTML-JS-CSS">String-generator-html-js-css</a> is maintained by <a href="https://github.com/malhotrabhavyajot">malhotrabhavyajot</a>.</span>
